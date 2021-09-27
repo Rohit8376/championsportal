@@ -38,7 +38,7 @@ function AddPeople() {
 
       var config = {
         method: "post",
-        url: "http://localhost:2000/addTeam",
+        url: "https://aqueous-brushlands-41244.herokuapp.com/addTeam",
         headers: {
           "Content-Type": "application/json",
         },
@@ -75,7 +75,7 @@ function AddPeople() {
 
       var config = {
         method: "post",
-        url: "http://localhost:2000/addmember",
+        url: "https://aqueous-brushlands-41244.herokuapp.com/addmember",
         headers: {
           Accept: "application/json",
           'Content-Type': 'application/json', 

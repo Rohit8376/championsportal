@@ -29,7 +29,7 @@ function AddTeamLead() {
 
       var config = {
         method: "post",
-        url: "http://localhost:2000/addTeam",
+        url: "https://aqueous-brushlands-41244.herokuapp.com/addTeam",
         headers: {
           "Content-Type": "application/json",
         },
