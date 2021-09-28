@@ -22,7 +22,7 @@ function Forgetpassword() {
       headers: {
         "Content-Type": "application/json",
       },
-      credentials: "include",
+      // credentials: "include",
       data: data,
     };
 

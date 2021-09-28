@@ -46,9 +46,9 @@ function Signup() {
         }
       })
       .catch(function (error) {
-        console.log(error.response);
-        console.log(error.response.status);
-        console.log(  error.response.data.message)
+        // console.log(error.response);
+        // console.log(error.response.status);
+        // console.log(  error.response.data.message)
   
         if (error.response.status=422) {
           toast(error.response.data.error)
