@@ -33,7 +33,7 @@ function Team() {
              
             var config = {
               method: "post",
-              url: "/Nominate",
+              url: "https://aqueous-brushlands-41244.herokuapp.com/Nominate",
               headers: {
                 "Content-Type": "application/json",
                 Authorization: `bearer ${accessToken}`,    

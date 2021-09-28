@@ -42,7 +42,7 @@ function Admin() {
 
   const getResult = async() =>{ 
    
-    var url = "/getResult"
+    var url = "https://aqueous-brushlands-41244.herokuapp.com/getResult"
 
     
     if(filterObj.month!==null){

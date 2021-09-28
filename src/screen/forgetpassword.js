@@ -18,7 +18,7 @@ function Forgetpassword() {
 
     var config = {
       method: "post",
-      url: "/forgot-password",
+      url: "https://aqueous-brushlands-41244.herokuapp.com/forgot-password",
       headers: {
         "Content-Type": "application/json",
       },

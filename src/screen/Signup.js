@@ -28,7 +28,7 @@ function Signup() {
 
     var config = {
       method: "post",
-      url: "/Signup",
+      url: "https://aqueous-brushlands-41244.herokuapp.com/Signup",
       headers: {
         "Content-Type": "application/json",
      
